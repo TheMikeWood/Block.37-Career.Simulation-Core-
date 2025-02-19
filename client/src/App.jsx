@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ItemsList from "./ItemsList";
-import ItemDetails from "./ItemList";
+import ItemDetails from "./ItemDetails";
 import UserProfile from "./UserProfile";
 import Login from "./Login";
 
