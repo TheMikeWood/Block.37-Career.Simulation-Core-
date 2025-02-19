@@ -47,7 +47,7 @@ const seed = async () => {
     ]);
     console.log("Reviews seeded!");
 
-    // Seed comments
+    // Seed comment
     console.log("Seeding comments...");
     await Promise.all([
       createComment(lucy.id, review1.id, "Totally agree!"),
